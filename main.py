@@ -1,140 +1,40 @@
-import random
+
 
 # Startvärdena väljer du själv.
-spelare_hp = 100
-fiende_hp = 80
+health_point = int("health_point")
+health_point = int("hp")
 
-# Ditt första kort börjar här.
-val
+if ("player1 or player2 karaktärer") == int("0hp"):
+    print("någon dog") 
+ 
+
+print(" hej player1 vad ska ditt namn vara?")
+input = ("player1")
+
+print("hej palyer2 vad ska ditt namn vara")
+input = ("player2")
+
+
+print ("Hej du har kommit till mitt spel nu. Du har kommit till mitt 2 player spel menm du kan också välja att köra mot en bot")
+print("men först ska du välja en karaktär, det finns 8 olika att välja mellan")
+
+print ("vill du köra det här spelet. ja om du vill och nej om du inte vill")
+if input == ("ja or Ja"):
+    print(" vad roligt Nu kommer du att få se alla olika karaktärer")
+    if input == ("nej or Nej"):
+        print(" okej det var inte kul då får du bara vänta")
+
 
  
-if player 1 karaktär
-if player 2 karaktär 
-if player 3 karaktär 
-if player 4 karaktär 
-if player 5 karaktär 
-if player 6 karaktär 
-if player 
 
-print ("klicka på 1 för att välja big Berra")
-print ("klicka på 2  för att välja ")
-print ("klicka på 3 för att välja ")
-print (" klicka på 4 för att välja")
-print ("klicka på 5 för att välja ")
-print ("klicka på 6 för att välja ")
-print ("klicka på 7 för att välja ")
-print ("klicka på 8 för att välja ")
-print ("klicka på 9 för att välja ")
-print ("klicka på 10 för att välja")
+print ("klicka på 1 för att välja Big Berra. Big Berra stats: Attack 8, försvar 10, hastighet 2. 150 hp")
+print ("klicka på 2  för att välja kalle kebab.  Stats: Attack 8, försvar 10, hastighet 2. 150 hp")
+print ("klicka på 3 för att välja  Göran  Stats: Attack 7, försvar 8, hastighet 4. 130 hp")
+print (" klicka på 4 för att välja Bengan Stats: Attack 10, försvar 8, hastighet 5. 95 hp")
+print ("klicka på 5 för att välja Stefan Stats: Attack 5, försvar 7, hastighet 6. 110 hp")
+print ("klicka på 6 för att välja urbo-Tommy Stats: Attack 7, försvar 4, hastighet 10. 75 hp")
+print ("klicka på 7 för att välja pizza kungen.  Stats: Attack 8, försvar 7, hastighet 3. 200 hp")
+print ("klicka på 8 för att välja Roffe Stats: Attack 6, försvar 8, hastighet 5. 100 hp")
 
 
 
-1  Big Berra – Den feta tanken
-
-Utseende: Stor mage, rött träningsställ och guldkedja.
-
-Attack: Magplask – hoppar och landar med hela kroppstyngden.
-
-Special: Bogrullaren – rullar fram som en bowlingkula.
-
-Försvar: Magvägg – använder magen som sköld.
-
-Stats: Attack 8, försvar 10, hastighet 2.
-
-
-
-
-2Kalle Kebab – Gatans kung
-
-
-Utseende: Solglasögon, keps bak och fram och mjukisbyxor.
-
-Attack: Kebabkast – kastar en gigantisk kebabrulle.
-
-Special: Extra sås – distraherar motståndaren.
-
-Försvar: Mjukisblock – blockerar med sina tjocka kläder.
-
-Stats: Attack 6, försvar 5, hastighet 9.
-
-3 Göran – Den arga pensionären
-
-Utseende: Gammal man med glasögon och käpp.
-
-Attack: Käppsmäll.
-
-Special: Gammelraseri – blir extremt snabb en kort stund.
-
-Försvar: Dramatiskt klagande – motståndaren tappar fokus.
-
-Stats: Attack 7, försvar 8, hastighet 4.
-
-
-4 
-Bengan – Gymråttan
-
-Utseende: Gigantiska muskler, linne och små shorts.
-
-Attack: Protein Punch.
-
-Special: MAX PUMP – en serie kraftiga slag.
-
-Försvar: Flexblock – spänner alla muskler.
-
-Stats: Attack 10, försvar 8, hastighet 5.
-
-
-5 Stefan – Kontorsnissen
-
-
-Utseende: Skjorta, sned slips och portfölj.
-
-Attack: Portföljsmäll.
-
-Special: Papperskaos – kastar en massa papper.
-
-Försvar: Kontorsstolen – rullar undan.
-
-Stats: Attack 5, försvar 7, hastighet 6.
-
-
-
-6Turbo-Tommy – Den galna löparen
-
-Utseende: Jätteskor, pannband och alldeles för korta shorts.
-
-Attack: Löparknuff.
-
-Special: 100-meter – springer rakt genom motståndaren.
-
-Försvar: Panikrusning – springer undan.
-
-Stats: Attack 7, försvar 4, hastighet 10.
-
-7pizzakungen – Matmonstret
-
-Utseende: Kockmössa, pizzafläckigt förkläde och stor mage.
-
-Attack: Pizzasmäll.
-
-Special: Familjepizza – svingar en gigantisk pizza.
-
-Försvar: Pizzalock – skyddar sig med ett stort pizzaflak.
-
-Stats: Attack 8, försvar 7, hastighet 3.
- 
- 
- 
- Roffe – Den galna grannen
-
-
- Utseende: Morgonrock, tofflor och rufsigt hår.
-
-Attack: Tidningssmäll.
-
-Special: VÄCK INTE MIG – går till attack med en kudde.
-
-Försvar: Soffkudden – blockerar attacker.
-
-Stats: Attack 6, försvar 8, hastighet 5.
- 
